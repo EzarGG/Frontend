@@ -1,4 +1,4 @@
-const BACKEND_URL = "http://YOUR_BACKEND_IP:3000"; // ganti dengan domain/backend kamu
+const BACKEND_URL = "http://localhost:3000"; // ganti dengan domain/backend kamu
 
 async function loadServers() {
   const response = await fetch(`${BACKEND_URL}/servers`);
