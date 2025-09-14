@@ -1,5 +1,5 @@
 // Ganti IP:PORT sesuai backend Pterodactyl kamu
-const API_URL = "http://180.252.112.174:2324";
+const API_URL = "http://180.245.14.220:2324";
 
 // LOGIN
 document.getElementById("loginForm")?.addEventListener("submit", async (e) => {
